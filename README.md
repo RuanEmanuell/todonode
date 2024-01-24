@@ -18,6 +18,8 @@ You need to download the files from this directory, start a <a href="https://www
      
      Now to run the project, you will use:
      npm run dev (you can change that in package.json)
+
+You also need to go to the 'src/utils/database.js' file and put your mongoDB key in there in order to use the database connector.
     
 ### Here are some images of the project running:
 
