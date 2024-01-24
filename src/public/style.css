@@ -1,0 +1,67 @@
+body{
+    background-color: rgba(40, 143, 0, 0.623);
+    display: flex;
+    justify-content: center;
+}
+
+#lista-usuarios{
+    padding: 10px;
+}
+
+.topTodoList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.todoListBox{
+    background-color: white;
+    width: 75%;
+    padding-bottom: 2%;
+}
+
+.todoBox{
+    display: grid;
+    color: black;
+    border: 2px solid grey;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.editButton{
+    grid-column-start: 10;
+    grid-column-end: 11;
+}
+
+.deleteButton{
+    grid-column-start: 11;
+    grid-column-end: 12;
+}
+
+.button{
+    border: none;
+    background-color: white;
+    transition: background-color 0.2s, border-radius 0.2s;
+    width: 50px;
+}
+
+.button:hover{
+    background-color: rgb(173, 173, 173);
+    border-radius: 10px;
+}
+
+#enviarButton{
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(40, 143, 0, 0.623);
+    font-weight: bold;
+}
+
+#enviarButton:hover{
+    background-color:rgb(33, 33, 255);
+}
