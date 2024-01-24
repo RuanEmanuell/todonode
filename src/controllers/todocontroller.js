@@ -3,48 +3,48 @@ import { listTodos, createTodo, deleteTodo, updateTodo } from "../services/todol
 
 const router = Router();
 
-router.get('/', async (req, res) => {
-    const todoList = await listTodos();
-    res.send(todoList);
-});
-
-
+// Rota para listar todos os todos
 router.get('/list-todos', async (req, res) => {
-    const todos = await listTodos();
-    res.json(todos);
-});
-
-router.post('/', async (req, res) => {
-    try{
-    const todo = req.body;
-    const createdTodo = await createTodo(todo);
-    res.status(201).send(createdTodo);
-    }catch(err){
-        res.status(400).send(err);
-    }
-});
-
-router.delete('/:id', async (req, res) => {
     try {
-        const todoId = req.params.id;
-        await deleteTodo(todoId); 
-        res.status(200).send({ message: 'Usuário deletado com sucesso' });
+        const todos = await listTodos();
+        res.json(todos);
     } catch (error) {
         res.status(500).send(error);
     }
 });
 
+// Rota para criar um novo todo
+router.post('/', async (req, res) => {
+    try {
+        const todo = req.body;
+        const createdTodo = await createTodo(todo);
+        res.status(201).send(createdTodo);
+    } catch (err) {
+        res.status(400).send(err);
+    }
+});
 
+// Rota para deletar um todo pelo ID
+router.delete('/:id', async (req, res) => {
+    try {
+        const todoId = req.params.id;
+        await deleteTodo(todoId); 
+        res.status(200).send({ message: 'Todo deletado com sucesso' });
+    } catch (error) {
+        res.status(500).send(error);
+    }
+});
+
+// Rota para atualizar um todo pelo ID
 router.put('/:id', async (req, res) => {
     try {
         const todoId = req.params.id;
         const todoData = req.body;
         await updateTodo(todoId, todoData); 
-        res.status(200).send({ message: 'Usuário atualizado com sucesso' });
+        res.status(200).send({ message: 'Todo atualizado com sucesso' });
     } catch (error) {
         res.status(500).send(error);
     }
 });
-
 
 export default router;

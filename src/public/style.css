@@ -31,6 +31,10 @@ body{
     padding: 10px;
 }
 
+.todoChecked{
+    color: blue;
+}
+
 .editButton{
     grid-column-start: 10;
     grid-column-end: 11;
