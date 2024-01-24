@@ -1,14 +1,14 @@
-# Veja a versão em Português <a href="README-ptbr.md">aqui</a>
+# Check the English version <a href="README.md">here</a>
 
 ## todonode
 
-A simple todo list made with NodeJS, ExpressJS and MongoDB as the database. Made for porposes of training back-end development. Still in the early stages of the development.
+Um todo list simples feito com NodeJS, ExpressJS e MongoDB como banco de dados. Feito para fins de treinamento de desenvolvimento back-end. Ainda nos estágios iniciais de desenvolvimento.
     
-### How to Run
+### Como rodar
 
-You need to download the files from this directory, then run the following commands:
+Você precisa baixar os arquivos deste diretório, iniciar um servidor <a href="https://www.mongodb.com/pt-br">MongoDB</a> e executar os seguintes comandos na sua IDE de escolha:
 
-     These commands install the required packages:
+     Esses comandos instalam os pacotes necessários na sua máquina:
      
      npm i body-parser
      npm i express
@@ -16,9 +16,11 @@ You need to download the files from this directory, then run the following comma
      npm i -D nodemon
      
      
-     Now to run the project, you will use:
-     npm run dev (you can change that in package.json)
+     Agora para rodar o projeto você usa:
+     
+     npm run dev (você pode mudar o comando em packagge.json)
+
     
-### Here are some images of the project running:
+### Aqui estão algumas imagens do projeto rodando:
 
 ![Screenshot_497](https://github.com/RuanEmanuell/todonode/assets/113607857/8e89e967-9af0-4115-a940-3b932bf9bd7d)
