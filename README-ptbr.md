@@ -19,7 +19,8 @@ Você precisa baixar os arquivos deste diretório, iniciar um servidor <a href="
      Agora para rodar o projeto você usa:
      
      npm run dev (você pode mudar o comando em packagge.json)
-
+     
+Você também precisa ir para o arquivo 'src/utils/database.js' e colocar sua chave mongoDB lá para usar o conector do banco de dados Mongo.
     
 ### Aqui estão algumas imagens do projeto rodando:
 
