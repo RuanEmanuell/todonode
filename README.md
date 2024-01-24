@@ -2,7 +2,7 @@
 
 ## todonode
 
-A simple todo list made with NodeJS, ExpressJS and MongoDB as the database. Made for porposes of training back-end development. Still in the early stages of the development.
+A simple todo list made with NodeJS, ExpressJS and MongoDB as the database. Made for porposes of training back-end development. 
     
 ### How to Run
 
@@ -23,4 +23,4 @@ You also need to go to the 'src/utils/database.js' file and put your mongoDB key
     
 ### Here are some images of the project running:
 
-![Screenshot_497](https://github.com/RuanEmanuell/todonode/assets/113607857/8e89e967-9af0-4115-a940-3b932bf9bd7d)
+![todolist](https://github.com/RuanEmanuell/todonode/assets/113607857/14568eaf-8064-4991-b6cc-78e342dacb32)
