@@ -6,7 +6,7 @@ A simple todo list made with NodeJS, ExpressJS and MongoDB as the database. Made
     
 ### How to Run
 
-You need to download the files from this directory, start a <a href="https://www.mongodb.com/pt-br">MongoDB</a> server, then run the following commands in your IDE of choose:
+You need to download the files from this directory, start a <a href="https://www.mongodb.com/pt-br">MongoDB</a> server, then run the following commands in your IDE of choice:
 
      These commands install the required packages:
      
