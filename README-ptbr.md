@@ -2,7 +2,7 @@
 
 ## todonode
 
-Um todo list simples feito com NodeJS, ExpressJS e MongoDB como banco de dados. Feito para fins de treinamento de desenvolvimento back-end. Ainda nos estágios iniciais de desenvolvimento.
+Um todo list simples feito com NodeJS, ExpressJS e MongoDB como banco de dados. Feito para fins de treinamento de desenvolvimento back-end. 
     
 ### Como rodar
 
@@ -24,4 +24,5 @@ Você também precisa ir para o arquivo 'src/utils/database.js' e colocar sua ch
     
 ### Aqui estão algumas imagens do projeto rodando:
 
-![Screenshot_497](https://github.com/RuanEmanuell/todonode/assets/113607857/8e89e967-9af0-4115-a940-3b932bf9bd7d)
+![todolist](https://github.com/RuanEmanuell/todonode/assets/113607857/c93b2061-1245-47b0-8170-58832d8035f6)
+
